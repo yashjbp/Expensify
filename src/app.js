@@ -14,7 +14,7 @@ const store = configureStore();
 store.dispatch(addExpense({description:"Water Bill",amount:4500}));
 store.dispatch(addExpense({description:"Gas Bill"}));
 store.dispatch(setTextFilter("water"));
-
+console.log("yo");
 setTimeout(()=>{
     store.dispatch(setTextFilter("bill"))
 },3000);
