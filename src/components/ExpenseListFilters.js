@@ -16,7 +16,7 @@ const ExpenseListFilters = (props) => (
     </div>
 );
 
-const mapStateToProps = (state)=>{
+const mapStateToProps = (state)=>{ 
     return {
         filters:state.filters
     }
